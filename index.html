@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends | Login</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <aside>
+            <div class="centralize">
+                <div class="topo">
+                    <img src="assets/logo.svg" alt="logo">
+                    <div class="aviso">
+                        <i data-feather="help-circle"></i>
+                        <div class="tooltip">
+                            <span>
+                                Você não precisa mais selecionar uma região antes de fazer login. Quando fizer login, 
+                                a região associada à sua conta será atualizada automaticamente.
+                            </span>
+                            <p>Se estiver com problemas para fazer login, talvez precise 
+                                <a href="javascript:void(0)">atualizar sua conta.<i data-feather="arrow-up-right"></i></a>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <form>
+                    <h1>Insira sua conta Riot</h1>
+                    <div class="input-text">
+                        <input type="text" placeholder=" ">
+                       <label for="salvar">Nome de usuário</label>
+                    </div>
+                    <div class="input-text">
+                        <input type="password" placeholder=" ">
+                        <label for="salvar">Senha</label>
+                    </div>
+                    <div class="salvar">
+                        <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox">
+                        <label for="styled-checkbox-1">Manter Login</label>
+                    </div>
+
+                    <div class="submit">
+                        <button>
+                            <i data-feather="arrow-right"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="infos">
+                    <a href="javascript:void(0)">Criar conta</a>
+                    <div class="session">
+                        <a href="javascript:void(0)">Não consegue iniciar sessão?</a>
+                        <a class="version" href="javascript:void(0)">V20.11.0</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <div class="background">
+            <div class="window-buttons">
+                <button><i data-feather="minus"></i></button>
+                <button><i data-feather="help-circle"></i></button>
+                <button><i data-feather="x"></i></button>
+            </div>
+            <div class="footer">
+                <button><i data-feather="settings"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
